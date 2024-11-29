@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.city-search {
+  margin-bottom: 20px;
+}
+
+.city-search input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.city-search button {
+  padding: 5px 10px;
+}
+
+.city-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.city-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.city-card button {
+  margin-top: 10px;
+}
+
+.temperature-chart {
+  margin-top: 30px;
+}
+
+.error {
+  color: red;
+}
